@@ -1,0 +1,36 @@
+#logo {
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+#letter {
+    width: 80%;
+    margin: 10%;
+    font-weight: 500;
+    font-style: italic;
+}
+#letter-recipient {
+    text-align: right;
+}
+
+#letter-header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+#letter-content {
+    text-align: justify;
+}
+
+#letter-sender {
+    text-align: left;
+    float: left;
+}
+#letter-date {
+    text-align: right;
+    float: none;
+}
+#letter-signature {
+    padding-top: 2em;
+}
