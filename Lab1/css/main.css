@@ -64,5 +64,16 @@
     float: left;
 }
 
+#order_summary {
+    padding:3em;
+    width: 50em;
+    height: 60em;
+    margin-top: 5em;
+    border: 2px solid black;
+}
+
+hr {
+    float: none;
+}
 
 

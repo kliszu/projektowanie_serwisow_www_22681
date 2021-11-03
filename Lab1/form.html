@@ -44,30 +44,50 @@
                         <label for="password" class="form-label">Hasło</label>
                         <input type="password" class="form-control" id="password"/>
                         <br><br>
-                        <p class="block-description">Zamowienie</p> 
+                        <p class="block-description">Zamówienie</p> 
                         <hr>
                         <p><b>Wybierz produkty:</b></p>
                         <div class="item">
-                            <input type="checkbox" class="form-check-input" value="" id="product_1">
+                            <input type="checkbox" class="form-check-input" value="0" class="product">
                             <label class="form-check-label" for="product_1">Banany</label>
                         </div>
                         <div class="item">
-                            <input type="checkbox" class="form-check-input" value="" id="product_2">
-                            <label class="form-check-label" for="product_1">Banany</label>
+                            <input type="checkbox" class="form-check-input" value="1" class="product">
+                            <label class="form-check-label" for="product_2">Truskawki</label>
                         </div>
                         <div class="item">
-                            <input type="checkbox" class="form-check-input" value="" id="product_3">
-                            <label class="form-check-label" for="product_1">Banany</label>
+                            <input type="checkbox" class="form-check-input" value="2" class="product">
+                            <label class="form-check-label" for="product_3">Wiśnie</label>
                         </div>
                         <div class="item">
-                            <input type="checkbox" class="form-check-input" value="" id="product_4">
-                            <label class="form-check-label" for="product_1">Banany</label>
+                            <input type="checkbox" class="form-check-input" value="3" class="product">
+                            <label class="form-check-label" for="product_4">Arbuz</label>
                         </div>
                         <div class="item">
-                            <input type="checkbox" class="form-check-input" value="" id="product_5">
-                            <label class="form-check-label" for="product_1">Banany</label>
+                            <input type="checkbox" class="form-check-input"  value="4" class="product">
+                            <label class="form-check-label" for="product_5">Śliwki</label>
                         </div>
-                        <input type="button" class="btn btn-primary" value="Podsumowanie zamówienia" style="float: right; margin-top: 2em;">
+                        <div class="item">
+                            <input type="checkbox" class="form-check-input"  value="5" class="product">
+                            <label class="form-check-label" for="product_5">Borówki</label>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" class="form-check-input"  value="6" class="product">
+                            <label class="form-check-label" for="product_5">Winogrona</label>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" class="form-check-input"  value="7" class="product">
+                            <label class="form-check-label" for="product_5">Awokado</label>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" class="form-check-input"  value="8" class="product">
+                            <label class="form-check-label" for="product_5">Kaki</label>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" class="form-check-input"  value="9" class="product">
+                            <label class="form-check-label" for="product_5">Mango</label>
+                        </div>
+                        <button class="btn btn-primary" onclick="generate_summary()" style="float: right; margin-top: 2em;">Podsumowanie Zamówienia</button>
                     </div>
             </div>
         <!-- Bootstrap core JS-->
