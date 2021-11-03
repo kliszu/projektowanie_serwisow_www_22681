@@ -52,7 +52,17 @@
     margin-bottom: 0.5em;
 }
 
+#bottom-bar {
+    width: 100%;
+    height: 10%;
+}
 
+.function-box {
+    text-align: center;
+    height: 100%;
+    margin:10px;
+    float: left;
+}
 
 
 
