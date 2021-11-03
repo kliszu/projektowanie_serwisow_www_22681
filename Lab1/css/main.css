@@ -4,6 +4,8 @@
 }
 
 #letter {
+    padding: 4em;
+    background-color: tomato;
     width: 80%;
     margin: 10%;
     font-weight: 500;
@@ -27,13 +29,30 @@
     text-align: left;
     float: left;
 }
+
 #letter-date {
     text-align: right;
     float: none;
 }
+
 #letter-signature {
     padding-top: 2em;
 }
+
+#form-box {
+    width: 60%;
+    margin-top: 5%;
+}
+
+.block-description {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.item {
+    margin-bottom: 0.5em;
+}
+
+
 
 
 

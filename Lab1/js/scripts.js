@@ -5,3 +5,11 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+var btn = document.getElementById("change_backgroud");
+var color_rgb = document.getElementById("change-bg").value;
+btn.addEventListener("click",change_backgroud_color());
+
+function change_backgroud_color(){
+    var color_rgb = document.getElementById("change-bg").value;
+    document.getElementById("letter").style.backgroundColor = color_rgb;
+};
