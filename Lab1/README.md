@@ -2,7 +2,7 @@
 
 ## Strona główna
 Na stronie indeks umiesilem logo, informacje o sobie oraz po krótce wymienione narzedzia które użyłem do wykonania tej strony.
-[Alt text](/assets/strona-index.png?raw=true "Strona Główna")
+[Markdown Image](/assets/strona-index.png?raw=true "Strona Główna")
 
 ## Podstrona z listem
 Zawiera poprawnie sformatowany list, dodatkową funkcjonalnością jest możliwość wybrania koloru z paleti barw i ustawienie go jako kolor tła.
