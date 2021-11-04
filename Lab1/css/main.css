@@ -65,6 +65,7 @@
 }
 
 #order_summary {
+    margin: 0 auto;
     padding:3em;
     width: 50em;
     height: 60em;
@@ -72,8 +73,18 @@
     border: 2px solid black;
 }
 
-hr {
-    float: none;
+#english_words_table {
+    border: 1px solid black;
 }
 
+.article_text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+table, th, td {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
 

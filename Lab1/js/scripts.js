@@ -113,5 +113,5 @@ function generate_summary() {
         form.appendChild(document.createElement('br'));
     }
     form.appendChild(label_sign);
-
+    document.getElementById("order_summary").parentNode.insertBefore(document.createElement("br"), document.getElementById("order_summary").nextElementSibling);
 };
