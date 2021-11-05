@@ -19,4 +19,4 @@ Strona zawiera prosty formularz rejestracji, w kolejnym bloku można wybrać pro
 ![Formularz](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab1/assets/strona-formularz.png)
 
 ## Widok stworzonego podsumowania
-![Podsumowanie](/assets/podsumowanie_zamowienia.png)
+![Podsumowanie](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab1/assets/podsumowanie_zamowienia.png)
