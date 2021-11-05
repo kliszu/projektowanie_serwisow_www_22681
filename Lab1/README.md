@@ -10,7 +10,7 @@ Zawiera poprawnie sformatowany list, dodatkową funkcjonalnością jest możliwo
 
 ## Podstrona z książką
 Na tej podstronie użyłem lorem ipsum oraz dodalem dodatkowe elementy, charakterystyczne dla stron w podręcznikach.
-![Książka](/assets/strona-ksiazka.png)
+![Książka](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab1/assets/strona-ksiazka.png)
 
 
 
