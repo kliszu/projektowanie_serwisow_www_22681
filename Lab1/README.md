@@ -16,7 +16,7 @@ Na tej podstronie użyłem lorem ipsum oraz dodalem dodatkowe elementy, charakte
 
 ## Podstrona z formularzem
 Strona zawiera prosty formularz rejestracji, w kolejnym bloku można wybrać produkty. Przycisk **Podsumowanie Zamówienia** generuje zformatowaną wersję zamowienia, które przypomina proformę.
-![Formularz](/assets/strona-formularz.png)
+![Formularz](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab1/assets/strona-formularz.png)
 
 ## Widok stworzonego podsumowania
 ![Podsumowanie](/assets/podsumowanie_zamowienia.png)
