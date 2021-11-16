@@ -1,9 +1,11 @@
+fonts = ['Hoefler Text', 'New Century Schoolbook', 'Calisto MT', 'Cambria', 'Rockwell Extra Bold', 'Baskerville', 'Lucida Sans Typewriter', 'Courier', 'Apple Chancery', 'URW Chancery', 'papyrus', 'Thai']
+
 function random_style(){
     p = document.getElementById('text');
-    var words = p.innerHTML.split(" ");
-    for(var i=0;i<words.length;i++){
-       //your code here 
-    }
+    font_size = Math.floor(Math.random() * 50) + 1;
+    p.style.fontSize = font_size.toString()+'px';
+    p.style.fontFamily = fonts[Math.floor(Math.random()* fonts.length) + 1];
+    console.log(p.style.fontFamily);
 }
 
 function random_image(){
