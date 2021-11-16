@@ -11,3 +11,19 @@ function random_image(){
     num = Math.floor(Math.random() * 11) + 1;
     img.src = 'assets/images/rand_img_'+num.toString()+'.jpg';
 }
+
+function update_progress_bar(){
+    value = document.getElementById('Range').value;
+    progressBar = document.getElementsByClassName("progress-bar")[0];
+    progressBar.style.width = value.toString()+'%';
+    progressBar.innerHTML = value.toString()+'%';
+    if(value < 25) {
+        progressBar.style.backgroundColor = '#dc3545';
+    }
+    if(value >= 25 && value <= 75){
+        progressBar.style.backgroundColor = "#ffc107";
+    }
+    if(value > 75) {
+        progressBar.style.backgroundColor = '#198754';
+    }
+}
