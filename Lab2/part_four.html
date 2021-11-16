@@ -34,12 +34,13 @@
         </div>
         <div class = "feature">
             <h5>Feature nr 17</h5>
-            <h6>Click button to change image in the frame</h6>
+            <h6>Po wciśnięciu przycisku w ramce wyswietla się losowy obrazek</h6>
             <img id="img_frame">
             <button type="button" class="btn btn-dark" onclick="random_image()">Change Image</button>
         </div>
         <div class = "feature">
             <h5>Feature nr 18</h5>
+            <p>Po przesunięciu suwaka pasek postępu zmienia swoją wartość wraz z odpowiednim kolorem.</p> 
             <input type="range" min="1" max="100" value="50" class="slider" id="Range" onchange="update_progress_bar()">
             <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">22%</div>
@@ -51,7 +52,8 @@
         </div>
         <div class = "feature">
             <h5>Feature nr 20</h5>
-            <button type="button" class="btn btn-dark">Dark</button>
+            <p>Po wciśnięciu przycisku, jego kolor zmienia się na losowy.</p>
+            <button type="button" class="btn btn-dark" onclick="change_btn_color()">Zmień kolor</button>
         </div>
     </div>
 </body>

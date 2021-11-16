@@ -27,3 +27,10 @@ function update_progress_bar(){
         progressBar.style.backgroundColor = '#198754';
     }
 }
+
+
+function change_btn_color(){
+    button = document.getElementsByClassName("btn btn-dark")[3];
+    button.style.backgroundColor = '#'+(0x1000000+Math.random()*0xffffff).toString(16).substr(1,6);
+
+}
