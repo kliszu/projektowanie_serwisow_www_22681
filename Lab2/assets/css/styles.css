@@ -19,3 +19,19 @@
     border-radius: 1px;
     align-items: center;
 }
+#square {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+#square > p {
+    font-weight: bolder;
+}
+
+#figure {
+    margin: auto;
+    padding: auto;
+}

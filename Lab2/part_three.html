@@ -27,24 +27,27 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <div class="container">
         <div class = "feature">
-            <h5>Feature nr 11</h5>
-            <p>Po wciśnięciu przycisku, jego kolor zmienia się na losowy.</p>
-            <button type="button" class="btn btn-dark" onclick="change_btn_color()">Zmień kolor</button>
+            <h5>Feature nr 12</h5>
+            <p>Wpisz wymiary i kliknij przycisk</p>
+            <input type="number" id='width' min="10" max="1000">
+            <input type="number" id='height' min="10" max="1000">
+            <button type="button" class="btn btn-dark" onclick="draw_figure()">Rysuj prostokąt</button>
         </div>
         <div class = "feature">
-            <h5>Feature nr 12</h5>
-            <p>Po wciśnięciu przycisku, jego kolor zmienia się na losowy.</p>
-            <button type="button" class="btn btn-dark" onclick="change_btn_color()">Zmień kolor</button>
+            <h5>Feature nr 11</h5>
+            <p>Wybierz kolor i kliknij przycisk wypełnij</p>
+            <input type="color" id="color_fill">
+            <button type="button" class="btn btn-dark" onclick="figure_fill()">Wypełnij</button>
         </div>
         <div class = "feature">
             <h5>Feature nr 13</h5>
-            <p>Po wciśnięciu przycisku, jego kolor zmienia się na losowy.</p>
-            <button type="button" class="btn btn-dark" onclick="change_btn_color()">Zmień kolor</button>
+            <input type="text" id="title_val"/>
+            <button type="button" class="btn btn-dark" onclick="change_title()">Zmień tytuł</button>
         </div>
         <div class = "feature">
             <h5>Feature nr 14</h5>
-            <p>Po wciśnięciu przycisku, jego kolor zmienia się na losowy.</p>
-            <button type="button" class="btn btn-dark" onclick="change_btn_color()">Zmień kolor</button>
+            <p>Kliknij w kwadrat by zmienić tło!</p>
+            <div id="square" onclick="change_bg_color()"></div>
         </div>
         <div class = "feature">
             <h5>Feature nr 15</h5>
