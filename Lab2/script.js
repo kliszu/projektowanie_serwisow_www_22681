@@ -48,3 +48,7 @@ function add_product_to_list() {
     element_after = document.getElementsByTagName('p')[2];
     element_after.appendChild(shopping_list);
 }
+
+function change_background_color(){
+    document.body.style.backgroundColor = '#'+(0x1000000+Math.random()*0xffffff).toString(16).substr(1,6);
+}
