@@ -30,9 +30,21 @@ function update_progress_bar(){
     }
 }
 
-
 function change_btn_color(){
     button = document.getElementsByClassName("btn btn-dark")[3];
     button.style.backgroundColor = '#'+(0x1000000+Math.random()*0xffffff).toString(16).substr(1,6);
 
+}
+
+function add_product_to_list() {
+    if(document.getElementById('shopping_list') == null){
+        shopping_list = document.createElement('ul');
+    } else {
+        shopping_list = document.createElement('ul');
+    }
+    li = document.createElement('li');
+    li.appendChild(document.createTextNode(document.getElementById('product_name').value));
+    shopping_list.appendChild(li);
+    element_after = document.getElementsByTagName('p')[2];
+    element_after.appendChild(shopping_list);
 }
