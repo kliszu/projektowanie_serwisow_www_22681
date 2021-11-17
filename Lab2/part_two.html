@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,31 @@
     </nav>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <div class="container">
-        <h1>Page two</h1>
+        <div class = "feature">
+            <h5>Feature nr 6</h5>
+            <input type="file" id="img_path">
+            <button type="button" class="btn btn-dark" onclick="show_image()">Wyświetl obrazek</button>
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 7</h5>
+            <p>Suwak zmienia rozmiar zdjęcia.</p>
+            <input type="range" min="10" max="500" onchange="resize_image()" id="size_range">
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 8</h5>
+            <p>Po wciśnięciu przycisku, kolor tła zmienia się na losowy.</p>
+            <button type="button" class="btn btn-dark" onclick="change_background_color()">Zmień kolor</button>
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 9</h5>
+            <p>Po wciśnięciu przycisku, kolor tła zmienia się na losowy.</p>
+            <button type="button" class="btn btn-dark" onclick="change_background_color()">Zmień kolor</button>
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 10</h5>
+            <p>Po wciśnięciu przycisku, kolor tła zmienia się na losowy.</p>
+            <button type="button" class="btn btn-dark" onclick="change_background_color()">Zmień kolor</button>
+        </div>
     </div>
 </body>
 

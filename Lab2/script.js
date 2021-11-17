@@ -90,3 +90,26 @@ function figure_fill(){
     figure = document.getElementById('figure');
     figure.style.backgroundColor = color;
 }
+
+function show_image(){
+    if(document.getElementById('image') !=null){
+        return;
+    }
+    img_path = document.getElementById('img_path').value;
+    img_path = img_path.replace("C:\\fakepath\\", "");
+    console.log(img_path);
+    image = document.createElement('img');
+    image.id = 'image';
+    image.src = 'mem.jpg';
+    image.style.width = "400px";
+    console.log(image);
+    document.getElementsByClassName('feature')[0].appendChild(image);
+}
+
+function resize_image(){
+    if(document.getElementById('image') ==null){
+        return;
+    }
+    image = document.getElementById('image');
+    image.style.width = (document.getElementById('size_range').value * 3).toString()+'px';
+}
