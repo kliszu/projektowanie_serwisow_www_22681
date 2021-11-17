@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,35 @@
     </nav>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <div class="container">
-        <h1>Page one</h1>
+        <div class = "feature">
+            <h5>Feature nr 1</h5>
+            <p>Zmień kolor menu.</p>
+            <button type="button" class="btn btn-dark" onclick="change_menu_color()">Zmień kolor</button>
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 2</h5>
+            <p>Wybierz dwie liczby i dodaj je.</p>
+            <input type="number" class="num">
+            <input type="number" class='num'>
+            <button type="button" class="btn btn-dark" onclick="add_numbers()">Dodaj liczby</button>
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 3</h5>
+            <p>Wciśnij przycisk i usuń menu</p>
+            <button type="button" class="btn btn-dark" onclick="delete_all()">Usuń menu</button>
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 4</h5>
+            <p>Zmień kolor wszystkich wyrazów</p>
+            <input type="color" id="words_color">
+            <button type="button" class="btn btn-dark" onclick="change_p_color()">Zmień kolor</button>
+        </div>
+        <div class = "feature">
+            <h5>Feature nr 5</h5>
+            <p>Wybierz numer funkcjonalności której chcesz usunąć</p>
+            <input type="number" id="feature_number" min=1 max=5>
+            <button type="button" class="btn btn-dark" onclick="delete_feature()">Usuń</button>
+        </div>
     </div>
 </body>
 

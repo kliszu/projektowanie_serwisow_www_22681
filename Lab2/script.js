@@ -139,6 +139,44 @@ function change_button_color(){
     button_color = document.getElementById("button_bg_color").value;
     buttons = document.getElementsByClassName('btn btn-dark');
     for(let i= 0; i<buttons.length;i++){
+        console.log(button_color);
         buttons[i].style.backgroundColor = button_color;
+    }
+}
+
+function change_menu_color(){
+    menu = document.getElementsByClassName('navbar navbar-light navbar-expand-md navigation-clean')[0];
+    menu.style.backgroundColor = '#'+(0x1000000+Math.random()*0xffffff).toString(16).substr(1,6);
+}
+
+function add_numbers(){
+    "use strict";
+    var numbers, result, result_node;
+    numbers = document.getElementsByClassName('num');
+    result = Number(numbers[0].value) + Number(numbers[1].value);
+    result_node = document.createElement('p');
+    result_node.id = 'result';
+    if(document.getElementById('result') != null){
+        document.getElementsByTagName('p')[1].removeChild(document.getElementById('result'));
+    }
+    result_node.innerHTML = 'Wynik = '+result.toString();
+    document.getElementsByTagName('p')[1].appendChild(result_node);
+}
+
+function delete_all(){
+    document.getElementsByTagName('nav')[0].removeChild(document.getElementsByClassName('container')[0]);
+}
+
+function delete_feature(){
+    value = document.getElementById('feature_number');
+    features = document.getElementsByClassName('feature');
+    features[Number(value.value-1)].remove();
+}
+
+function change_p_color(){
+    p = document.getElementsByTagName('p');
+    p_color = document.getElementById('words_color').value;
+    for(let i = 0; i<p.length; i++){
+        p[i].style.color = p_color;
     }
 }
