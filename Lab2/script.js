@@ -92,24 +92,53 @@ function figure_fill(){
 }
 
 function show_image(){
-    if(document.getElementById('image') !=null){
-        return;
-    }
     img_path = document.getElementById('img_path').value;
     img_path = img_path.replace("C:\\fakepath\\", "");
-    console.log(img_path);
+    if(document.getElementById('image') !=null || img_path==''){
+        return;
+    }
     image = document.createElement('img');
     image.id = 'image';
-    image.src = 'mem.jpg';
+    image.src = img_path;
     image.style.width = "400px";
     console.log(image);
     document.getElementsByClassName('feature')[0].appendChild(image);
 }
 
 function resize_image(){
-    if(document.getElementById('image') ==null){
+    if(document.getElementById('image') == null){
         return;
     }
     image = document.getElementById('image');
     image.style.width = (document.getElementById('size_range').value * 3).toString()+'px';
+}
+
+function say_hello(){
+    name_value = document.getElementById('name_val').value;
+    if(name_value == ''){
+        return;
+    }
+    welcome = document.createElement('p')
+    welcome.innerHTML = "Witaj na mojej stronie, "+name_value+"!";
+    element_before = document.getElementsByTagName('p')[1];
+    element_before.appendChild(welcome);
+}
+
+function change_button_value(){
+    button_text = document.getElementById('button_value').value;
+    if(button_text == ''){
+        return;
+    }
+    buttons = document.getElementsByClassName('btn btn-dark');
+    for(let i= 0; i<buttons.length;i++){
+        buttons[i].innerHTML = button_text;
+        console.log(buttons[i]);
+    }
+}
+function change_button_color(){
+    button_color = document.getElementById("button_bg_color").value;
+    buttons = document.getElementsByClassName('btn btn-dark');
+    for(let i= 0; i<buttons.length;i++){
+        buttons[i].style.backgroundColor = button_color;
+    }
 }
