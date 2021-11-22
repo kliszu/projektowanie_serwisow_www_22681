@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Lab nr 3</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/base.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Labolatorium nr 3</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="zadania_js.html">zadania JS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="obsluga_zdarzen.html">obsługa zdarzeń</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container">
+            <div class='task'>
+                <h5>Task nr 1</h5>
+                <P>Scrolluj żeby dodać liczby!</P>
+                <p id="task_1_res">0</p>
+            </div>
+            <div class='task'>
+                <h5>Task nr 2</h5>
+                <p>Kliknij przycisk i przywitaj się z stroną</p>
+                <p id="greeting"></p>
+                <input type="button" id="task_2_btn" value="Click me!">
+            </div>
+            <div class='task'>
+                <h5>Task nr 3</h5>
+                <p>Nie wychodź poza zaznaczony obszar!</p>
+                <div id='arena'></div>
+            </div>
+            <div class='task'>
+                <h5>Task nr 4</h5>
+                <p>Kliknij dwukrtonie myszką aby powiększyć tekst</p>
+                <div  id="text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat eros leo, vel mollis libero facilisis nec. In pulvinar quam at lacus condimentum vestibulum. Morbi ligula turpis, finibus sed egestas vitae, eleifend sed orci. Nunc a venenatis nisi, eleifend sollicitudin urna. Nullam faucibus ultricies purus, id gravida ipsum fringilla ut. Morbi ut felis risus. Morbi sed risus in nulla vulputate congue. Quisque vitae quam pellentesque, porttitor risus a, pharetra ipsum. Integer eu imperdiet justo. Etiam facilisis est scelerisque quam lacinia, nec rutrum nisl elementum. Ut in libero et tellus lobortis pretium. 
+                </p>
+                </div>
+            </div>
+            <div class='task'>
+                <h5>Task nr 5</h5>
+                <p>Zmień kolor tła najerzdżając myszką na "Task nr 5"</p>
+            </div>
+            <div class='task'>
+                <h5>Task nr 6</h5>
+                <p>Klikaj enter, żeby zwiększyć odstęp pomiędzy literami</p>
+                <p id = "task_6_text">Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</p>
+            </div>
+            <div class='task'>
+                <h5>Task nr 7</h5>
+                <p>Wyświetla aktualną pozycję myszki na stronie</p>
+                <p id=position></p>
+            </div>
+            <div class='task'>
+                <h5>Task nr 8</h5>
+                <p id="counter_val">Licznik kliknięć = 0</p>
+                <input type="button" id="task_8_btn" value="Click me!">
+            </div>
+            <div class='task'>
+                <h5>Task nr 9</h5>
+                <p>Zmień rozmiar okna, żeby sprawdzić czy rozmiar jest poprawny</p>
+                <p id='rozmiar'></p>
+            </div>
+            <div class='task'>
+                <h5>Task nr 10</h5>
+                <p>Wpisz dowolny tekst, który odrazu zostanie ustawiony jako wartość przycisku</p>
+                <input type="text" id="task_10_input">
+                <input type="button" id="task_10_btn">
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
