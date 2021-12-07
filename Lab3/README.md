@@ -15,11 +15,13 @@
 <br>
 <br>
 <h3>Zdarzenia 1-5</h3>
+
 ![screen_obsluga_zdarzen_1](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zdarzenia-1-5.png)
 <br>
 <br>
 <h3>Zdarzenia 6-10</h3>
-![screen_obsluga_zdarzen_2](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zdarzenia-5-6-10.png)
+
+![zdarzenia-6-10](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zdarzenia-5-6-10.png)
 
 <h3>Zadania JS</h3>
 <hr>
