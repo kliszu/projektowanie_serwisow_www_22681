@@ -27,30 +27,48 @@
 <hr>
 <h4>Kod źródłowy do wszystkich zadań znajduje się w pliku zadania.js</h4>
 <br>
-1.Po podaniu imienia konsola wypisuje jego pierwszą literą<br>
-<br>
-![zadanie_1]()
-2.<br>
-<br>
-![zadanie_1]()
-3.<br>
-<br>
-![zadanie_1]()
-4.<br>
-<br>
-![zadanie_1]()
-5.<br>
-<br>
-![zadanie_1]()
-6.<br>
-<br>
-![zadanie_1]()
-7.<br>
-<br>
-![zadanie_1]()
-8.<br>
-<br>
-![zadanie_1]()
-9.<br>
-<br>
-![zadanie_1]()
+1.Po podaniu imienia konsola wypisuje jego pierwszą literę<br>
+2.Po podaniu zdania zwraca ilość wyrazów<br>
+3.funkcja wyświetla podany teskt w ramce, jesli jest on za długi to odpowiednio go skraca<br>
+
+![zadania_1_3](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadania%201-3.png)
+
+4.Wykonaj następujące czynności:
+1. Dodaj mu klasę .menu
+2. pierwszemu LI w tym ul dodaj klasę `.first`
+3. ostatniemu LI w tym ul dodaj klasę `.last`
+4. trzeciemu LI w tym ul ustaw klasę `.active`
+5. trzeciemu LI w tym ul ustaw za pomocą JS kolor tekstu na `#fff`
+6. każdemu linkowi w tym menu ustaw atrybut `title="Przejdź na stronę ..."` gdzie ... to tekst danego linka
+7. za pomocą JS każdemu linkowi w tym ul ustaw atrybut href na #. Po co to robimy? Czy jest alternatywna metoda?
+8. Dodaj do każdego linka w ul zdarzenie CLICK. Po kliknięciu powinien pojawić się alert z tekstem, który widnieje na linku (np "Kliknięto Start")
+9. Dla linka w `li.active` usuń zdarzenie click (tak by nie pojawiał sie alert po kliknięciu)<br>
+
+![zadanie_4](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie%204.png)
+
+5.Kliknięcie w dany element zmienia mu klasę na active, podczas zmiany strona ma się nie przeładowywać<br>
+
+![zadanie_5_1](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-5-1.png)
+
+![zadanie_5_2](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-5-2.png)
+
+6.Stworzenie dodawania i usuwania nowych użytkowników do listy, zapobieganie odświeżaniu strony pdoczas wysyłania formularza, przypisanie zdarzenia wywołującego dodanie nowego użytkownika do listy do formularza, a nie bezpośrednio do przycisku<br>
+
+
+![zadanie_6_1](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-6-1.png)
+
+![zadanie_6_2](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-6-2.png)
+
+7.Jeśli szerokość ekranu jest większa niż 600 pole position zmienia swoją wartość z absolute na fixed <br>
+
+![zadanie_7_1](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-7-1.png)
+![zadanie_7_2](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-7-2.png)
+
+8.Podczas scrolowania jeśli długość scrollbara jest większa niż 100, to do nagłowka jest dodwana klasa 'sticky'<br>
+
+![zadanie_8_1](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-8-1.png)
+![zadanie_8_2](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-8-2.png)
+
+9.Funkcja wylicza losową liczbę z zakresu od 0 do liczby podanej przez użytkownika. Następnie lista zostaje posortowana oraz zostaje obliczona suma i średnia wszystkich elementów. Rezultat jest wyświetlany w konsoli<br>
+
+![zadanie_9](https://github.com/kliszu/projektowanie_serwisow_www_22681/blob/main/Lab3/assets/screenshots/zadanie-9.png)
