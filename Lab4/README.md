@@ -8,11 +8,11 @@ Gra polega na zestrzeleniu jak najwięcej przeciwników przemieszczajacych się 
 
 ![ekran_glowny]()
 
+![ekran_rozgrywki]()
+
 ![koniec_gry]()
 
 ![best_score]()
-
-
 
 
 ## Logika gry
@@ -37,6 +37,14 @@ Odpowiada za wygenerowanie przeciwników w odstępie czasu 1s o różnej wielko�
 
 ### funkcja animate
 
+funkcja odpowiada za generowanie elementów gry na ekranie oraz ich odświeżanie. W nej zawarte są 3 pętle foreach list projectiles, particles oraz enemies.
+Dwie pierwsze pętle służą do wyświetlania i usuwania odłamków trafionego przeciwnika oraz pocików, które jeśli wyjdą poza granice okna gry zostają usunięte z listy.
+
+![particles_projectiles_for_each]()
+
+W tej pętli porównując dystans pomiędzy pociskiem a przeciwnikiem wykrywamy trafienie. W zależności od rozmiaru przeciwnika zostaje on zmniejszony lub zniszczony a do wyniku zostaje dodana odpowiednia liczba punktów, w przypadku zniszczenia przeciwnik zostaje usunięty z listy. Przy każdym zderzeniu pocisku z przeciwnikiem zostają utworzone nowe odłamki. Sprawdzamy kiedy przeciwnik zderzy się z graczem, następuje zatrzymanie gry i wyświetlenie menu. 
+
+![enemies_foreach]()
 
 ### obsługa zdarzeń
 
