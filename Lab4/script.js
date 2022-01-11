@@ -10,8 +10,6 @@ const modalEl = document.querySelector('#modalEl')
 const score_header = document.querySelector('#score_header')
 const bestScoreLabel = document.querySelector('#bestScoreLabel')
 
-let hit_sfx = new Audio('hit_sound.mp3')
-let shoot_sfx = new Audio('shoot_sound.mp3')
 
 class Player {
     constructor(x, y, radius, color) {
@@ -116,6 +114,7 @@ let player = new Player(x, y, 20, 'white')
 let projectiles = []
 let enemies = []
 let particles = []
+let score = 0
 
 function init() {
     score = 0
@@ -153,7 +152,6 @@ function spawnEnemies() {
 }
 
 let animationId
-let score = 0
 function animate() {
     animationId = requestAnimationFrame(animate)
     c.fillStyle = 'rgba(0, 0, 0, 0.1)'
